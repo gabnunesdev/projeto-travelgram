@@ -11,5 +11,6 @@
 
 .photo-gallery img {
   width: 286px;
+  height: 286px;
+  object-fit: cover;
 }
-

@@ -1,0 +1,14 @@
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 32px;
+  padding-block: 24px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+#footer-links {
+  display: flex;
+  gap: 24px;
+}
