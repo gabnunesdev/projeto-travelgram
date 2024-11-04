@@ -1,0 +1,15 @@
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline: 32px;
+  padding-block: 24px;
+  margin-inline: auto;
+  gap: 24px;
+  max-width: 1280px;
+}
+
+.photo-gallery img {
+  width: 286px;
+}
+
