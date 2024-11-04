@@ -1,0 +1,25 @@
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+  padding-inline: 32px;
+
+  background-color: var(--surface-color);
+}
+
+#menu-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+nav ul li:first-child img {
+  width: 24px;
+  height: 24px;
+}
+
+nav ul li:last-child img {
+  width: 40px;
+  height: 40px;
+}
