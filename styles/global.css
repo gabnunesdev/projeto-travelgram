@@ -17,6 +17,25 @@
   --shape-transparency: #ffffff8f;
   --text-color-primary: #313131;
   --text-color-secondary: #6c6c6c;
+
+  /* Mobile */
+
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2.5rem;
+
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+
+  --px-lg: 2rem;
+  --gap: 1rem;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
@@ -37,4 +56,8 @@ a {
 a:hover {
   color: var(--brand-color);
   text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
 }

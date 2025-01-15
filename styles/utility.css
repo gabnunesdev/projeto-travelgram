@@ -1,0 +1,56 @@
+.container {
+  max-width: 80em;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.even-columns {
+  display: grid;
+  gap: var(--gap);
+}
+
+.justify-center {
+  justify-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-1\.5 {
+  gap: 1.5rem;
+}
+
+.desktop-only {
+  display: initial;
+}
+
+.container {
+  --max-width: 375px;
+  width: min(var(--max-width), 100% - var (--px-lg) * 2);
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (width >= 80em) {
+  .desktop-only {
+    display: initial;
+  }
+}

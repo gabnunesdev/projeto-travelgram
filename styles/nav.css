@@ -24,3 +24,10 @@ nav ul li:last-child img {
   height: 40px;
   vertical-align: middle;
 }
+
+nav a {
+  color: var(--text-color-secondary)
+}
+
+
+
